@@ -1,0 +1,688 @@
+/* _______________________________________Body________________________________ */
+
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+/* _______________________________________Header________________________________ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/1365934756/es/foto/fondo-de-estudio.jpg?s=612x612&w=0&k=20&c=MjLCl-TySkUjXfF0b6cn8H_mZ4o84qlh0-1xG0FFRn0=");
+    background-size: cover;
+}
+
+
+.logo {
+    display: flex;
+    width: 80px;
+    margin: 20px;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.nombre-empresa {
+    align-items: center;
+}
+
+nav {
+    font-size: x-large;
+}
+
+.nav-link1 {
+    color: black;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: solid black 2px;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    color: rgb(255, 0, 0);
+}
+
+.nav-link2 {
+    color: black;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: solid black 2px;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
+    color: rgb(255, 0, 0);
+}
+
+.nav-link3 {
+    color: black;
+    padding-right: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.nav-link3:hover {
+    color: rgb(255, 0, 0);
+}
+
+.buscador {
+    size: 20px;
+    margin-right: 50px;
+}
+
+
+/* _______________________________________Footer________________________________ */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: solid black;
+    height: 400px;
+    background-image: url("https://media.istockphoto.com/id/1365934756/es/foto/fondo-de-estudio.jpg?s=612x612&w=0&k=20&c=MjLCl-TySkUjXfF0b6cn8H_mZ4o84qlh0-1xG0FFRn0=");
+    background-size: cover;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9e0e4;
+    border-top: solid black 1px;
+}
+
+.foot-link1 {
+    color: black;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.foot-link1:hover {
+    color: rgb(255, 0, 0);
+}
+
+.foot-link2 {
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+
+.foot-link2:hover {
+    color: rgb(255, 0, 0);
+}
+
+.foot-link3 {
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.foot-link3:hover {
+    color: rgb(255, 0, 0);
+}
+
+.box-11 {
+    border-right: solid black 1px;
+    width: 416px;
+}
+
+.box-113 {
+    margin-top: 40px;
+}
+
+.box-12 {
+    display: flex;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    width: 416px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-13 {
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    width: 416px;
+}
+
+.box-14 {
+    width: 416px;
+    display: flex;
+    border-left: solid black 1px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-22 {
+    margin-right: 50px;
+}
+
+.box-113 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.imagen {
+    width: 100px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lista1 {
+    font-size: x-large;
+}
+
+.foot-uni {
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: solid black;
+}
+
+.contacto {
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.logo-mondra {
+    margin-left: 14px;
+    width: 150px;
+}
+
+.logo-deusto {
+    justify-content: center;
+    width: 150px;
+}
+
+.imagen-principal {
+    width: 900px;
+}
+
+/* _______________________________________Página Principal________________________________ */
+
+.imagen-principal {
+    width: 900px;
+}
+
+.Indice1 {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.Indice1:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.contenido0 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.contenido0_0 {
+    width: 1000px;
+}
+
+.contenido0_1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.foto_vieja {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+}
+
+.contenido1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.contenido1_1 {
+    max-width: 1000px;
+}
+
+.contenido1_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido2 {
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.contenido2_1 {
+    width: 1000px;
+}
+
+.contenido2_2 {
+    display: flex;
+}
+
+.trabajo_equipo {
+    margin-left: 30px;
+}
+
+.contenido3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.contenido3_1 {
+    width: 900px;
+}
+
+.contenido3_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.texto {
+    text-align: justify;
+    padding: 10px;
+    line-height: 150%;
+}
+
+
+/* _______________________________________Página negocios________________________________ */
+
+.cuerpo_negocios {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cuerpo_negocios1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.cuerpo_negocios2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.cuerpo_negocios3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.cuerpo_negocios4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.cuerpo_negocios5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.negocio_HS {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_HS:hover {
+    background-image: url("https://www.ulma.com/wp-content/uploads/2022/03/Plataforma-logistica-Eroski.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_conv {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_conv:hover {
+    background-image: url("https://procandelaria.cl/wp-content/uploads/2022/07/RODILLOS-1-web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_forg {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_forg:hover {
+    background-image: url("https://www.ulmaforge.com/wp-content/uploads/2020/08/Capacidades-Ulma-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_embe {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_embe:hover {
+    background-image: url("https://1.bp.blogspot.com/-1vEGc7tXSM4/YMh2a_NIjnI/AAAAAAAAF60/gpR5X51Z3YEfopKMqGLU4o2zQS_lLgVhwCLcBGAsYHQ/s0/3770921.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_const {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_const:hover {
+    background-image: url("https://img.freepik.com/fotos-premium/grupo-silueta-trabajador-e-ingeniero-civil-uniforme-seguridad-instalan-acero-reforzado_33835-192.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_manu {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_manu:hover {
+    background-image: url("https://www.ulma.com/wp-content/uploads/2022/03/ULMACarretillasElevadoras_EDiAEX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_agri {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_agri:hover {
+    background-image: url("https://thumbs.dreamstime.com/b/cultivo-industrial-del-invernadero-118878184.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_pack {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_pack:hover {
+    background-image: url("https://www.ulmapackaging.com/es/maquinas-de-envasado/flow-pack-hffs/fv-55/@@download/image/78.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_arqui {
+    max-width: 500px;
+    height: 300px;
+}
+
+.negocio_arqui:hover {
+    background-image: url("https://files.123inventatuweb.com/0a/db/0adb8c46-7d66-4f6d-96a2-a92668866017.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+
+.negocio_titulo {
+    text-align: center;
+}
+
+.negocio_texto {
+    text-align: justify;
+    line-height: 170%;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.resumen {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tabla {
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.tabla1 {
+    justify-content: center;
+    width: 600px;
+}
+
+.contenido_celda {
+    text-align: center;
+    padding: 5px;
+}
+
+.grupo_celda1 {
+    background-color: aquamarine;
+}
+
+.grupo_celda2 {
+    background-color: rgb(9, 182, 124);
+}
+
+
+/* _______________________________________Página Formulario________________________________ */
+
+.formulario {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.titulo1 {
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo1_1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fin-formulario {
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fin-formulario {
+    width: 200px;
+    height: 70px;
+    background-color: aqua;
+}
+
+.form_nombre {
+    height: 20px;
+    margin-left: 0px;
+}
+
+.form_apellido {
+    height: 20px;
+}
+
+.form_fecha {
+    height: 20px;
+}
+
+.legend {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boton_reset {
+    margin-top: 280px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton_reset1 {
+    margin-top: 210px;
+    margin-left: 50px;
+    margin-right: 78px;
+}
+
+.boton_reset1_1 {
+    cursor: pointer;
+
+}
+
+.boton_reset2 {
+    margin-top: 600px;
+    margin-left: 50px;
+    margin-right: 78px;
+    cursor: pointer;
+}
+
+.boton_reset2_1 {
+    cursor: pointer;
+}
+
+.fieldset1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fieldset1_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.fieldset1_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.fieldset1_3 {
+    display: flex;
+    justify-content: end;
+}
+
+
+.fieldset2 {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fieldset2_1 {
+    text-align: center;
+    margin-left: 440px;
+}
+
+.fieldset3 {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.fieldset3_1 {
+    text-align: center;
+    margin-left: 320px;
+}
+
+.archivo {
+    margin-top: 30px;
+}
+
+/* _______________________________________Medida Query________________________________ */
+
+@media screen {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        font-size: 15px;
+    }
+
+}

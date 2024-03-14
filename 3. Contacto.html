@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon y título de la pestaña-->
+    <link rel="icon" type="image/jpg" href="imagenes/1. Logo.jpeg" alt="No se pudo cargar la imagen :(">
+    <title>ULMA - ¡Únete!</title>
+
+    <!-- Llamada al archivo CSS -->
+    <link rel="stylesheet" href="CSS/Plantilla CSS.css">
+
+</head>
+
+
+<body>
+
+    <!-- Cabecera de la página -->
+    <header>
+
+        <!-- Logo encabezado y título. El logo hace de link a inicio -->
+        <div class="encabezado">
+            <a href="1. Pagina Principal.html"><img src="imagenes/1. Logo.jpeg" class="logo"
+                    alt="No se pudo cargar la imagen :("></a>
+            <h2>Grupo ULMA</h2>
+        </div>
+
+        <!-- Barra de navegacion por las distintas paginas -->
+        <nav>
+            <a href="1. Pagina Principal.html" class="nav-link2">Inicio</a>
+            <a href="2. Negocios.html" class="nav-link1">Negocios</a>
+            <a href="3. Contacto.html" class="nav-link3">¿Quieres Unirte?</a>
+            <input type="search" value="Buscador" class="buscador">
+        </nav>
+
+    </header>
+
+    <h1 class="titulo1">¿Buscas empleo?</h1>
+
+    <p class="titulo1_1">Desde el Grupo Ulma le queremos informar que estamos en busqueda activa de nuevos trabajadores,
+        por lo que si
+        esta interesado en ser parte del Grupo ULMA, por favor rellene este formulario para que podamos tramitar los
+        datos
+    </p>
+
+    <!-- DIV para configurar la forma del formulario -->
+    <div class="formulario">
+
+        <!-- Aqui empieza el formulario. Dividido en 3 partes -->
+        <form>
+
+            <!-- 1º Parte formulario, dividido en 3 -->
+            <fieldset class="fieldset1">
+
+                <!-- Cabecera de la primera caja y seguido de los elementos que la componen -->
+                <legend class="legend">Datos Personales</legend>
+
+                <!-- Primera subcaja -->
+                <div class="fieldset1_1">
+                    Nombre:<input type="text" placeholder="Nombre" required class="form_nombre">
+                    Apellidos:<input type="text" placeholder="Apellidos" required class="form_apellido">
+                    Fecha de nacimiento:<input type="date" required class="form_fecha">
+                </div>
+
+                <!-- Segunda subcaja -->
+                <div class="fieldset1_2">
+
+                    <!-- Puedes escoger mas de una opcion -->
+                    <div>
+                        <p>Estudios Cursados. Puede marcar más de una opción</p>
+                        <ul>
+                            <li>ESO <input type="checkbox" name="guardar" value="ESO"> </li>
+                            <li>Grado Medio <input type="checkbox" name="guardar" value="Grado Medio "> </li>
+                            <li>Bachiller <input type="checkbox" name="guardar" value="Bachiller"> </li>
+                            <li>Grado Superior <input type="checkbox" name="guardar" value="Grado Superior"> </li>
+                            <li>Grado Universitario <input type="checkbox" name="guardar" value="Grado Universitario">
+                            </li>
+                            <li>Máster <input type="checkbox" name="guardar" value="Máster"> </li>
+                            <li>Doctorado <input type="checkbox" name="guardar" value="Doctorado"> </li>
+                        </ul>
+                    </div>
+
+                    <div class="archivo">
+                        <!-- Para adjuntar archivos -->
+                        Adjunte su CV aquí
+                        <br />
+                        <br />
+                        <input type="file" name="archivosubido" required>
+                    </div>
+
+                </div>
+
+                <!-- Tercera subcaja -->
+                <div class="fieldset1_3">
+                    <button type="reset" class="boton_reset">Borrar Datos</button>
+                </div>
+
+            </fieldset>
+
+
+
+            <!-- 2º Parte formulario -->
+            <fieldset class="fieldset2">
+                <!-- Cabecera de la segunda caja y seguido de los elementos que la componen -->
+                <legend class="legend">Datos de Contacto</legend>
+
+                <div class="fieldset2_1">
+
+                    <p>E-mail:</p>
+                    <input type="email" placeholder="ej: ulma@gmail.com" required>
+
+                    <p>Numero de telefono: </p>
+                    <input type="number" required>
+
+                    <p>Lugar de residencia:</p>
+                    <input type="text" placeholder="ej: Vitoria, Calle x, Nº1, 4A" required>
+
+
+                </div>
+
+                <div class="boton_reset1">
+                    <p><button type="reset" class="boton_reset1_1">Borrar Datos</button></p>
+                </div>
+
+
+            </fieldset>
+
+            <!-- 3º Parte formulario -->
+            <fieldset class="fieldset3">
+
+                <!-- Cabecera de la segunda caja y seguido de los elementos que la componen -->
+                <legend class="legend">Información adicional</legend>
+
+                <div class="fieldset3_1">
+
+                    <p>¿Conocias el Grupo ULMA?</p>
+                    <ul>
+                        <li> Si<input type="radio" name="ulma"> </li>
+                        <li> No<input type="radio" name="ulma"> </li>
+                    </ul>
+
+                    <!-- Area para escribir texto -->
+                    <p>¿En caso de que si, como nos conoció?</p>
+                    <textarea name="texto" rows="10" cols="50" minlength="100" maxlength="300"
+                        placeholder="Minimo 100 caracteres y 300 maximo"></textarea>
+
+                    <!-- Desplegable para elegir una opcion -->
+                    <p>¿En cual de nuestros negocios te gustaria trabajar?</p>
+                    <select>
+                        <option value="1">Agrícola</option>
+                        <option value="2">Architectural Solutions</option>
+                        <option value="3">Construction</option>
+                        <option value="4">Conveyor Components</option>
+                        <option value="5">Handling Systems</option>
+                        <option value="6">Packaging</option>
+                        <option value="7">Servicios de Manutención</option>
+                        <option value="8">Embedded Solutions</option>
+                        <option value="9">Forged Solutions</option>
+                        <option value="10" selected>No tengo preferencia</option>
+                    </select>
+
+                    <!-- Area para escribir texto -->
+                    <p>¿Por que te gustaría formar parte de ULMA?</p>
+                    <textarea name="texto" rows="10" cols="50" minlength="100" maxlength="300"
+                        placeholder="Minimo 100 caracteres y 300 maximo"></textarea>
+                </div>
+
+                <div class="boton_reset2">
+                    <p><button type="reset" class="boton_reset2_1">Borrar Datos</button></p>
+                </div>
+
+            </fieldset>
+
+
+
+            Acepto los términos y condiciones <input type="checkbox" required>
+
+            <div class="submit">
+                <input type="submit" value="Enviar formulario" class="fin-formulario">
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <!-- Programación del Footer. Está dividido en 2 containers-->
+    <footer class="footer">
+
+        <!-- Primer container. Está dividido en 4 subcontainers llamados box -->
+        <div class="container1">
+
+            <!-- 1º box. Lista de los negocios -->
+            <div class="box-11">
+                <h3 class="box-113">Negocios</h3>
+
+                <ul class="lista1">
+                    <li>ULMA Agrícola</li>
+                    <li>ULMA Architectural Solutions</li>
+                    <li>ULMA Construction</li>
+                    <li>ULMA Conveyor Components</li>
+                    <li>ULMA Embedded Solutions</li>
+                    <li>ULMA Forged Solutions</li>
+                    <li>ULMA Handling Systems</li>
+                    <li>ULMA Packaging</li>
+                    <li>Servicios de Manutención</li>
+                </ul>
+
+            </div>
+
+
+            <!-- 2º box. Definir entidades colaboladoras -->
+            <div class="box-12">
+                <h3 class="box-113">Colaboramos con</h3>
+
+                <!-- Logo de universidad de mondragon que hace de lik a su pagina -->
+                <div>
+                    <a href="https://www.mondragon.edu/es/inicio"><img src="imagenes/logo mondragon.png"
+                            class="logo-mondra" alt="No se pudo cargar la imagen :("></a>
+                    <p>Universidad de Mondragón</p>
+                </div>
+
+                <!-- Logo de universidad de deusto que hace de lik a su pagina -->
+                <div>
+                    <a href="https://www.deusto.es/es/inicio"><img src="imagenes/logo deusto.jpg" class="logo-deusto"
+                            alt="No se pudo cargar la imagen :("></a>
+                    <p>Universidad de Deusto</p>
+                </div>
+
+            </div>
+
+            <!-- 3º box. Datos de contacto de la empresa -->
+            <div class="box-13">
+                <h3 class="box-113">Contacto</h3>
+
+                <div class="contacto">
+                    <h4>Telefono:</h4>
+                    <p>+34 943 250 300</p>
+
+                    <h4>E-mail:</h4>
+                    <p>grupoulma@ulma.com</p>
+                </div>
+
+                <!-- Link a la ubicacion de ULMA pero en el mensaje se ve la dirección -->
+                <h3 class="box-113">Estamos aquí</h3>
+                <a href="https://www.google.es/maps/search/B%C2%BA+Garagaltza,+51.+Apdo.+22+20560+O%C3%B1ati,+Gipuzkoa.+Espa%C3%B1a/@43.0391777,-2.4230774,16.23z?hl=es"
+                    class="foot-link1">Bº
+                    Garagaltza, 51. Apdo. 22
+                    20560 Oñati, Gipuzkoa.</a>
+            </div>
+
+            <!-- 4º box. Imagenes que hacen de link a las redes de ULMA -->
+            <div class="box-14">
+                <h3 class="box-113">¡Síguenos en redes!</h3>
+
+                <div class="imagenes">
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/company/grupo-ulma?original_referer=https%3A%2F%2Fwww.ulma.com%2F"
+                        class=""><img src="imagenes/Icono linked In.png" class="imagen"
+                            alt="No se pudo cargar la imagen :("></a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/grupoulmataldea" class="imagen"><img src="imagenes/Icono TW.png"
+                            class="imagen" alt="No se pudo cargar la imagen :("></a>
+
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/user/GrupoULMA" class="imagen"><img src="imagenes/Icono YT.png"
+                            class="imagen" alt="No se pudo cargar la imagen :("></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Segundo Container. Links de politicas de la compañia e informacion -->
+        <div class="container2">
+
+            <div class="box-21">
+                <a href="https://www.ulma.com/es/politica-de-cookies/" target="_blank" class="foot-link1">Política de
+                    Cookies</a>
+                <a href="https://www.ulma.com/es/politica-privacidad/" target="_blank" class="foot-link2">Política de
+                    Privacidad</a>
+                <a href="https://www.ulma.com/es/aviso-legal/" target="_blank" class="foot-link3">Aviso Legal</a>
+            </div>
+
+            <div class="box-22">
+                <p>Copyright ©2023 ULMA. Todos los derechos reservados</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
